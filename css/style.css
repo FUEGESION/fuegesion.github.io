@@ -1,17 +1,96 @@
-body {
-    background-color: #111927;
-    background-image: 
-        radial-gradient(at 47% 33%, #17b585 0, transparent 59%), 
-        radial-gradient(at 82% 65%, hsl(218.00, 39%, 11%) 0, transparent 55%);
+body
+{
     background-repeat: no-repeat;
-    color: #fafafa;
-    
+    background-color: #FDFDFD;
+    color: #161923;
+    font-family: 'Montserrat', sans-serif;
 }
-.card {
+
+a
+{
+    text-decoration: none;
+}
+
+.card
+{
+    margin:30px;
+    padding: 30px;
     backdrop-filter: blur(16px) saturate(180%);
     -webkit-backdrop-filter: blur(16px) saturate(180%);
-    background-color: rgba(17, 25, 40, 0.75);
     border-radius: 12px;
     border: 1px solid rgba(255, 255, 255, 0.125);
-    height: 300px;
+    height: 50px;
 }
+
+.nav
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    text-align: center;
+
+    border: 2px solid rgba(215, 19, 19, 0.125);
+}
+
+.nav ul li
+{
+    font-size: 16px;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+
+    border: 2px solid rgba(30, 185, 113, 0.125);
+}
+
+.nav a
+{
+    color: rgba(0, 0, 0, .4);
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    transition: all 0.5s ease-out;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+
+    border: 2px solid rgba(19, 215, 25, 0.125);
+}
+
+.nav a:hover
+{
+    color: #161923;
+}
+
+.nav a.active
+{
+    color: black;
+    font-size: 18px;
+
+    border: 2px solid rgba(48, 19, 215, 0.125);
+}
+
+.nav a.active i,
+.nav a:hover i{
+    opacity: 1;
+}
+
+.nav a i
+{
+    transition: .45s all;
+    transform: rotate(30deg);
+    font-size: 10px;
+    margin-top: 5px;
+    color: #66CC66;
+    opacity: 0;
+
+    border: 2px solid rgba(65, 175, 244, 0.87);
+
+}
+
+@font-face 
+{
+    font-family: "Montserrat"; 
+    src: url("../fonts/Montserrat-Regular.woff") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+} 
