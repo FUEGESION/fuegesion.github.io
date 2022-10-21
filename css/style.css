@@ -87,6 +87,46 @@ a
 
 }
 
+.c
+{
+    font-size: 35px;
+    text-align: center;
+    font: bold 3em Arial, sans-serif;
+    color: #0d3967;
+    border: 2px solid rgba(48, 19, 215, 0.125);
+}
+
+.cv1{text-shadow: #cad5e2 1px 1px 0, #cad5e2 2px 2px 0,    #cad5e2 3px 3px 0, #cad5e2 4px 4px 0,    #cad5e2 5px 5px 0;}
+.cv2{text-shadow: 0 0 5px rgba(0,0,0,0.5);}
+.cv3{text-shadow: red 0 0 2px;}
+.cv4
+{
+    background: #f0f0f0;
+    font: bold 3em Arial, sans-serif;   color: #f0f0f0;
+    text-shadow: #fff -1px -1px 0,    #333 1px 1px 0;
+}
+.cv5
+{
+    text-shadow: #5dc8e5 0 0 10px;
+    color: #0083bd;
+}
+.cv6{text-shadow: red 0 0 10px;}
+.cv7
+{
+    text-shadow: #000 0 0 5px;
+    color: transparent;
+}
+
+
+.textcols-item {
+	white-space: normal;	
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 5%;
+	font-size: 14px;
+}
+
+
 @font-face 
 {
     font-family: "Montserrat"; 
